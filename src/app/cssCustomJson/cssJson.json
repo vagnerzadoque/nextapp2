@@ -1,0 +1,17 @@
+{
+    "vagnerOutraClass": {
+       "backgroundColor": "theme('colors.blue.500')",
+          "color": "theme('colors.white')",
+          "padding": "theme('spacing.4')"
+    },
+    "ButtonContainerContained":{
+        "backgroundColor": "theme('colors.primary')",
+        "border":"none",
+        "color": "theme('colors.onPrymary')"
+    },
+    "ButtonContainerOutlined":{
+        "backgroundColor": "none",
+        "border":"1px solid theme('colors.primary')",
+        "color": "theme('colors.onPrymary')"
+    }
+}

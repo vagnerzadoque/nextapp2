@@ -1,6 +1,10 @@
+import ButtonGaya from "@/components/ButtonGaya/ButtonGaya";
+import ButtonMor from "@/components/ButtonMor/ButtonMor";
 import Image from "next/image";
 
+
 export default function Home() {
+  
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
@@ -15,7 +19,10 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
+            <div className="vagner-outra-classe hover:vagner-outra-classe2" >Vagner</div>
             By{" "}
+            <ButtonGaya />
+            <ButtonMor hierarchy="outlined" />
             <Image
               src="/vercel.svg"
               alt="Vercel Logo"
